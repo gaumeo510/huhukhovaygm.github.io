@@ -1,0 +1,77 @@
+*{box-sizing: border-box;
+margin: 0px;
+padding: 0px;}
+.banner{
+    background-color: bisque;
+    border: 1px rgb(146, 106, 186);
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    width: 98%;
+    margin: 0px;
+}
+.name_banner{font-size: 50px;
+    color: rgb(214, 154, 75);
+    font-weight: bold;
+    width: 98% ;}
+    .h1{
+        color: chartreuse;
+        background-color: chocolate;
+        border: 1px pink;
+        width: 750px;
+        height: 50px;
+        margin: 0px auto;
+        padding: 20px 10px 20px 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .root li{
+        list-style: none;
+        float: left;
+        position: relative;
+        display: block; 
+    }
+    .root>li>a{
+        text-decoration: none;
+        color: rgb(6, 1, 1);
+        padding: 0px 15px 0px 15px;
+        display: block;line-height: 40px;
+    }
+.menu{
+
+    background-color: rgb(194, 201, 53);
+    width: 98% ;height: 40px;
+    margin: 10px auto;
+}
+.root>li>a:hover{
+   background-color:plum ;
+   color: black;
+   transform: ease-in 0.35s;
+}
+.submenu{
+    width: 200px;
+    background-color: aquamarine;
+    display: block;
+    position: absolute;
+}
+.submenu li{list-style: none;}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: burlywood;
+    display: block;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    text-indent: 15px;
+}
+.root>li:hover .submenu{
+    background-color: bisque;
+    color: aquamarine;
+    transform: ease-in 0,35s;
+}
+footer{
+    background-color:rgba(124, 0, 128, 0.486);
+    text-align:center;
+    padding:25px;
+    font-size:18px;
+}
